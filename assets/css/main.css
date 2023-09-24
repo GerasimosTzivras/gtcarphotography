@@ -125,10 +125,16 @@ h6 {
   transition: 0.3s;
   color: #fff;
   background: var(--color-primary);
+  border-color: var(--color-primary);
+  border-style: solid;
+  border-width: 2px;
 }
 
 .page-header .cta-btn:hover {
-  background: #2cbc85;
+  background: black;
+  border-color: var(--color-primary);
+  border-style: solid;
+  border-width: 2px;
 }
 
 /*--------------------------------------------------------------
@@ -142,6 +148,9 @@ h6 {
   bottom: -15px;
   z-index: 99999;
   background: var(--color-primary);
+  border-color: var(--color-primary);
+  border-style: solid;
+  border-width: 2px;
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -155,7 +164,10 @@ h6 {
 }
 
 .scroll-top:hover {
-  background: rgba(39, 167, 118, 0.8);
+  background: black;
+  border-color: var(--color-primary);
+  border-style: solid;
+  border-width: 2px;
   color: #fff;
 }
 
@@ -1214,6 +1226,9 @@ h6 {
   display: inline-block;
   padding: 12px 40px;
   border-radius: 4px;
+  border-color: var(--color-primary);
+  border-style: solid;
+  border-width: 2px;
   letter-spacing: 1px;
   text-transform: uppercase;
   transition: 0.3s;
@@ -1222,7 +1237,10 @@ h6 {
 }
 
 .hero .btn-get-started:hover {
-  background: #2cbc85;
+  background: black;
+  border-color: var(--color-primary);
+  border-style: solid;
+  border-width: 2px;
 }
 
 @media (max-width: 768px) {
